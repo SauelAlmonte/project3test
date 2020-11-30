@@ -1,0 +1,88 @@
+#header {
+    display: flex;
+    justify-content: space-around;
+    background: lightgreen;
+    font-size: 18px;
+
+    /*width: 400px;*/
+    padding: 10px;
+}
+
+/* For the big background-image:*/
+.main1 {
+    height: 100vh;
+    /*read more */
+    background: url("img/florian-olivo-4hbJ-eymZ1o-unsplash.jpg")
+    no-repeat center center/cover;
+}
+
+/* For msimbo logo*/
+.main2 {
+    display: flex;
+    justify-content: center;
+    /*min-height: calc(100vh - 70px);*/
+    background: no-repeat center;
+}
+
+/* For msimbo logo */
+.msimbo_logo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    /*position: absolute;*/
+    top: 60px;
+    left: 10px;
+    border: 1px;
+    width: 150px;
+}
+
+ /* Rules for text at the center */
+.text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    color: white;
+    font-size: 2rem;
+}
+
+#six-icons {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    height: 50px;
+    padding: 10px;
+}
+
+.six-icons {
+    background: navajowhite;
+    border: 5px solid black;
+}
+#about-us {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 50px;
+    padding: 10px;
+}
+
+.about_us_class {
+    background: navajowhite;
+    border: 1px solid black;
+}
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 50px;
+    padding: 10px;
+}
+
+#footer p {
+    font-size: 18px;
+}
+
+.footer_class {
+    background: #ccc;
+    border: 1px solid black;
+}
